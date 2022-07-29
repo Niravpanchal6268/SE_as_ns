@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form function</title>
+  </head>
+  <body>
+    <main>
+      <h1>form function</h1>
+      <form action="/action.php">
+        <caption>
+          Login page
+        </caption>
+        <br />
+        <input type="text" placeholder="Id" />
+        <br />
+        <br />
+        <input type="password" placeholder="Password" />
+        <h5>Class selection</h5>
+        <label for="101">
+          <input type="radio" value="Class XI" name="class" id="101" />class XI
+        </label>
+        <br />
+        <label for="102">
+          <input type="radio" value="Class XII" name="class" id="102" />class
+          XII
+        </label>
+        <br /><br />
+        <caption>
+          Select Subject::
+        </caption>
+        <br />
+        <label for="id1">
+          <input type="checkbox" value="math" name="class" id="101" />math
+        </label>
+        <br />
+        <label for="id1">
+          <input type="checkbox" value="Science" name="class" id="102" />Science
+        </label>
+        <br />
+        <label for="id1">
+          <input
+            type="checkbox"
+            value="chemistry"
+            name="class"
+            id="103"
+          />chemistry
+        </label>
+        <br /><br />
+        <br /><br />
+        <caption>
+          Select city::
+        </caption>
+        <select name="City">
+          <option value="ahmedabad">ahmedabad</option>
+          <option value="surat">surat</option>
+          <option value="Rajkot">Rajkot</option>
+        </select>
+        <br /><br />
+        <caption>
+          feedback ::
+        </caption>
+        <br />
+        <textarea
+          name="Feed Back"
+          id="101"
+          placeholder="Write a valueble feedback"
+          rows="5"
+          cols="100"
+        ></textarea>
+        <br><br>
+        <input type="submit" value="submit" >
+      </form>
+    </main>
+  </body>
+</html>

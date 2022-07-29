@@ -1,0 +1,11 @@
+  Polymorphism therory
+   
+
+   one name having many forms.
+    >>Two Method
+    ==>Method overloading::
+    =>same class same name method,no of parameters or  arguments must be diffrent.
+
+    ==>Method overriding::
+    =>diffrent class having same name methods
+

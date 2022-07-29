@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            display: grid;
+            grid-template-rows: 70px 710px 60px;
+            grid-template-columns: 60% 20% 20%;
+
+
+
+
+        }
+
+        .t {
+            background-color: blue;
+            font-size: 30px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: left;
+            padding-left: 40px;
+        }
+
+        .login {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            padding-top: 10px;
+
+        }
+
+        .t,
+        strong {
+            padding-top: 10px;
+
+        }
+
+        .p {
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            text-align: left;
+
+        }
+
+        .pwdc {
+            display: inline-block;
+        }
+
+        .loginc {
+            display: inline-block;
+            border: 1px solid black;
+            width: 50px;
+            height: 25px;
+            border-radius: 3px;
+        }
+
+        .main2 {
+            padding-top: 100px;
+            padding-left: 20px;
+
+        }
+
+        img {
+            display: inline-block;
+            width: 70px;
+        }
+
+        .sign {
+            grid-column: 2/-1;
+
+            padding: 100px;
+        }
+
+        .fn {
+            display: inline-block;
+
+        }
+
+        .fn {
+            height: 30px;
+
+        }
+
+        .int {
+            width: 350px;
+            height: 30px;
+        }
+
+        .date {
+            margin-top: 5px;
+            padding: 9px;
+            font-size: 15px;
+
+
+        }
+
+        .gen {
+            font-size: 20px;
+        }
+
+        .ca {
+            padding: 12px;
+            margin-left: 5px;
+            background-color: rgba(61, 235, 17, 0.637);
+            padding-left: 35px;
+            padding-right: 35px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.6s;
+            box-shadow: 0 4px #999;
+
+
+
+        }
+
+        button:hover {
+            background-color: rgba(0, 0, 255, 0.507);
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="t"> <strong> Facebook</strong></div>
+        <div class="login">Email- Phone <br> <input type="text"></div>
+        <div class="p">Password <br><input class="pwdc" type="password"> <button class="loginc">Login</button>
+            <br>
+            <a href="">Forgate password?</a>
+        </div>
+        <div class="main2">
+            <h1>
+                Connect with friends and the
+                <br>
+                world around you on Facebook.
+            </h1>
+            <br>
+
+            <div> <img src="feed.png" alt="fed img"></div>
+            <br>
+            <h3>
+                <b> See photos and update </b>from friends in News Feed
+            </h3>
+            <br>
+
+            <div>
+                <img src="timeline.png" alt="">
+            </div>
+            <br>
+            <h3>
+                <b>Share What's new</b> in your life on your Timeline.
+            </h3>
+
+            <br>
+            <div>
+                <img src="findmore.png" alt="">
+            </div>
+            <br>
+            <h3>
+                Find More of What your's looking for with Facebook Search.
+            </h3>
+        </div>
+        <div class="sign">
+            <div>
+                <form action="">
+                    <h1>Sign Up</h1>
+                    <h4>It's free and alwats will be</h4>
+                    <br>
+                    <div>
+                        <input class="fn" type="text " placeholder="First name">
+                        <input class="fn" type="text" placeholder="Last name">
+                    </div>
+                    <br>
+                    <div>
+                        <input class="int" type="texte" placeholder="Email-Phone"> <br> <br>
+                        <input class="int" type="password" placeholder="New Password">
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Birthday</h3>
+                        <input type="date" class="date">
+                        <h6> <a href="">Why do i need to provide my birthday?</a></h6>
+                    </div>
+                    <br>
+                    <div class="gen">
+                        <input type="radio" name="gender" id="">Male
+                        <input type="radio" name="gender">Female
+
+                    </div>
+                    <br>
+                    <div>
+                        <p>by clicking Create Acconut your agree to our terms
+                            and that you <br>
+                            have read out data policy.
+                            including our cokie Use you may <br> receive SMS
+                            Notification from Facebook and can opt out any <br> time.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <button class="ca"> Create Account</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>

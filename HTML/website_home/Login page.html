@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body {
+            background-color:black
+        }
+
+        .main {
+            background-color: white;
+            width: 800px;
+            border-radius: 9px;
+            margin-top: 15%;
+            margin-left: 20%;
+            padding-bottom: 0px;     
+            padding-right: 0px; 
+            padding-left: 00px;
+           
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .h2 {
+
+            padding-top: 10px;
+            text-align: center;
+
+
+        }
+
+        .div1 {
+            display: inline-block;
+            text-align: center;
+            margin-right: 100px;
+
+
+        }
+
+        .div2 {
+
+            display: inline-block;
+            padding-left: 20px;
+        }
+
+        button {
+            width: 250px;
+            height: 40px;
+            border-radius: 2px;
+            border: none;
+            color: white;
+            font-size:medium ;
+        }
+
+        #fb {
+
+            background-color: rgb(55, 101, 226);
+            margin-bottom: 10px;
+            margin-top: 10px;
+            text-align: left;
+
+
+        }
+
+        #tw {
+
+            background-color: rgb(55, 101, 226);
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        #g {
+            background-color: rgb(167, 51, 51);
+            margin-bottom: 10px;
+            text-align: left;
+
+        }
+
+        #lg {
+            background-color: rgb(55, 207, 50);
+            margin-bottom: 10px;
+            text-align: center;
+
+        }
+
+        input {
+            width: 200px;
+            height: 30px;
+        }
+
+        .user {
+            margin-bottom: 10px;
+        }
+
+        .psw {
+            margin-bottom: 10px;
+        }
+
+        .su {
+            background-color: rgb(53, 53, 247);
+            display: inline-block;
+            text-align: left;
+            
+        
+        }
+        .fs{
+            display: inline-block;
+            background-color: rgb(53, 53, 247);
+            text-align: right;
+        }
+        .div3{
+            background-color: rgb(53, 53, 247);
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="h2">
+            <h2>Login Form</h2>
+        </div>
+        <div class="div1">
+            <div><button id="fb" type=""> Login with Facebook</button></div>
+            <div><button id="tw" type=""> Login with Twiter</button></div>
+            <div><button type="" id="g"> Login withh Google+</button></div>
+        </div>
+        <div class="div2">
+            <input type="text" placeholder="User id" class="user"><br>
+            <input type="password" placeholder="Password" class="psw"><br>
+            <button id="lg">Login</button>
+        </div>
+        <div class="div3">
+            <button class="su">Sing up</button>
+            <button class="fs">Forgot password?</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
